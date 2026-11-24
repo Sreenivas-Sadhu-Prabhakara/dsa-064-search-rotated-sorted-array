@@ -12,6 +12,13 @@ Rotation breaks the array into two sorted runs, and any midpoint lands in one of
 
 **Complexity:** O(log n) time, O(1) space. (Duplicates would degrade the classification to O(n) worst case — this variant assumes distinct values.)
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
